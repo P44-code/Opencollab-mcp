@@ -313,18 +313,19 @@ opencollab-mcp --version
 ```
 *(or `opencollab-mcp -V`)*
 
-The `main` branch is protected — please open a PR rather than pushing directly. CI runs on Python 3.10, 3.11, and 3.12.
+The `main` branch is protected — please open a PR rather than pushing directly. CI runs on Python 3.10, 3.11, 3.12, and 3.13.
 
 ---
 
 ## Roadmap
+
 
 Already shipped (v0.6.0):
 
 - 6 focused tools across discovery, evaluation, and issue intelligence
 - PyPI release (`pip install opencollab-mcp` / `uvx opencollab-mcp`)
 - 5-minute in-memory cache + parallel API calls
-- pytest suite on Python 3.10/3.11/3.12 in CI
+- pytest suite on Python 3.10/3.11/3.12/3.13 in CI
 - Stdio (local) and streamable-HTTP (remote) transports
 - Branch protection + required CI checks on `main`
 
