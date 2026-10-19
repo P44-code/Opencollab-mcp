@@ -21,6 +21,6 @@ body:
     attributes:
       label: Tool it touches
       description: The MCP tool this idea is about, if any.
-      placeholder: "e.g. search_issues"
+      placeholder: e.g. opencollab_find_issues
     validations:
       required: false
