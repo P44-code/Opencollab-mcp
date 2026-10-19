@@ -82,6 +82,25 @@ Same JSON as above, but in your client's MCP config file (`.cursor/mcp.json` for
 </details>
 
 <details>
+<summary><b>Claude Code</b></summary>
+
+Run this in your terminal (replace `ghp_your_token_here` with the token from Step 1):
+
+```bash
+claude mcp add opencollab -e GITHUB_TOKEN=ghp_your_token_here -- uvx opencollab-mcp
+```
+
+Check it's connected:
+
+```bash
+claude mcp list
+```
+
+Or run `/mcp` inside a Claude Code session.
+
+</details>
+
+<details>
 <summary><b>Plain pip (no uv)</b></summary>
 
 ```bash
@@ -361,7 +380,15 @@ The full 22-tool catalogue still lives on the [`v1-full`](https://github.com/pra
 
 ---
 
+## Contributors
 
+<a href="https://github.com/prakhar1605/Opencollab-mcp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=prakhar1605/Opencollab-mcp" alt="Contributors" />
+</a>
+
+New to open source? Start with an open [good first issue](https://github.com/prakhar1605/Opencollab-mcp/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+
+---
 
 ## License
 
