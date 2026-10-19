@@ -7,7 +7,7 @@ body:
     attributes:
       label: opencollab-mcp version
       description: Run `opencollab-mcp --version` and paste the output.
-      placeholder: "e.g. 0.3.1"
+      placeholder: "e.g. 0.7.0"
     validations:
       required: true
   - type: dropdown
